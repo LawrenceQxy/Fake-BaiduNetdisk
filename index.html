@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>百度网盘</title>
+		<link rel="stylesheet" type="text/css" href="BaiduNetdisk.css"/>
+		<link rel="stylesheet" type="text/css" href="reset.css"/>
+	</head>
+	<body>
+		<header>
+			<nav class="clearfix">
+				<div class="header-link fl">
+					<a class="link fl" href="javascript:;">首页</a>
+					<a class="link fl" href="javascript:;">网盘<img src="Images/arrow.jpg" style="transition: 0.5s;"/></a>
+					<a class="link fl" href="javascript:;">分享</a>
+					<a class="link fl" href="javascript:;">应用</a>
+				</div>
+				<ul class="header-info fr">
+					<li class="fl" style="border: none; margin-right: 10px;"><a href="javascript:;" style="color: #e65900;">企业版试用免费限量抢</a></li>
+					<li class="fl" style="border: none; margin-right: 10px;"><a class="fl" href="javascript:;" style="color: #dddddd;">扩容</a><div class="capacity clearfix"><span class="fr" style="color: #61605b; font: 12px/14px '';">2.41G/2055G</span></div></li>
+					<li class="fl" style="width: 112px;">妙味课堂88<img src="Images/arrow.jpg" style="transition: 0.5s; margin-left: 10px; margin-top: 22px;"/></li>
+					<li class="fl" style="width: 86px; line-height: 24px; height: 49px;"><a href="javascript:;" style="color: #dadee7;width: 70px; height: 24px; background-color: #fe0000; display: inline-block; border-radius: 2px; margin-top: 12px;">会员中心</a></li>
+					<li class="fl" style="width: 76px;"><a href="javascript:;" style="color: #d7d7d7;">客户端下载</a></li>
+					<li class="fl" style="width: 40px;"><a href="javascript:;" style="color: #d7d7d7;">通知</a></li>
+					<li class="fl" style="width: 60px; border-right: 1px solid #393939;"><a href="javascript:;" style="color: #d7d7d7;">更多<img src="Images/arrow.jpg" style="transition: 0.5s; margin-left: 10px; margin-top: 22px;"/></a></li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<div id="con-left" class="fl">
+				<ul class="menu-list">
+					<li class="menu">全部文件</li>
+					<li class="menu">图片</li>
+					<li class="menu">文档</li>
+					<li class="menu">视频</li>
+					<li class="menu">种子</li>
+					<li class="menu">音乐</li>
+					<li class="menu" style="padding-bottom: 8px; border-bottom: 1px solid #dedfe1;">其他</li>
+					<li class="share">我的分享</li>
+					<li class="cleaner">回收站</li>
+				</ul>
+			</div>
+			<div id="con-right" class="fl" style="width: 89%;">
+				<div class="bar clearfix">
+					<input type="button" class="function fl" value="新建文件夹" />
+					<input type="button" class="function fl" value="删除文件夹" />
+					<input type="button" class="function fl" value="重命名文件夹" />
+					<a href="javascript:;" class="fr" style="background-image: url(Images/folder-yes.jpg);"></a>
+					<a href="javascript:;" class="fr" style="background-image: url(Images/list-no.jpg);"></a>
+				</div>
+				<p class="clearfix module-list"><i class="fl">全部文件></i><span class="fr">已全部加载，共X个</span></p>
+				<ul class="list-cols clearfix">
+					<li class="cols fl" style="width: 53%;"><input type="checkbox"class="file-name" value="file-name" />文件名</li>
+					<li class="cols fl" style="width: 20%; border-left: 1px solid #e5e5e5;">大小</li>
+					<li class="cols fl" style="width: 25%; border-left: 1px solid #e5e5e5;">修改日期</li>
+				</ul>
+				<ul class="file-block clearfix">
+					<!--<li class="file fl">
+						<dl>
+							<dt></dt>
+							<dd class="show">
+								<p class="info">文件夹</p>
+							</dd>
+							<dd class="alter">
+								<input type="text"/>
+								<span class="sure">√</span>
+								<span class="cancel">×</span>
+							</dd>
+						</dl>
+					</li>-->
+				</ul>
+				<ul class="rightmenu"></ul>
+			</div>
+		</section>
+		<div id="cube" style="display: none;"></div>
+		<ul id="shadow"></ul>
+	</body>
+</html>
+<script src="html5shiv.js" type="text/javascript" charset="utf-8"></script>
+<script src="BaiduNetdisk.js" type="text/javascript" charset="utf-8"></script>
